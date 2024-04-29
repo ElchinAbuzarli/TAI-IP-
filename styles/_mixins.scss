@@ -1,0 +1,129 @@
+@mixin btn-style(){
+    border-radius: 70px;
+font-family: var(--poppins);
+font-weight: 800;
+font-size: 27px;
+line-height: 18px;
+width: 271px;
+height: 98px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: $btn-shadow;
+}
+
+@mixin btn-style2(){
+border-radius: 70px;
+font-family: var(--poppins);
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+width: 120px;
+height: 49px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: $btn-shadow;
+}
+
+
+
+
+
+@mixin active-btn(){
+    box-shadow:  rgba(0, 0, 0, 0.4) 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+
+@mixin update-btn(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: $main-color2;
+    font-family: var(--monsterrat);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+
+@mixin delete-btn(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: var(--monsterrat);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+    border: 1px solid #384d6c;
+}
+
+@mixin form-styles(){
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+@mixin labels(){
+    font-family: var(--monsterrat);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #384d6c;
+}
+
+@mixin inputs(){
+    width: 427px;
+    height: 42px;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-family: var(--monsterrat);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    // padding: 20px;
+    border: 1px solid #d1d5db;
+    outline: none;
+}
+
+@mixin biginput(){
+    width: 928px;
+    height: 42px;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-family: var(--monsterrat);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    // padding: 20px;
+    border: 1px solid #d1d5db;
+    outline: none;
+}
+
+
+@mixin medinput(){
+    width: 694px;
+    height: 42px;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-family: var(--monsterrat);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    // padding: 20px;
+    border: 1px solid #d1d5db;
+    outline: none;
+}

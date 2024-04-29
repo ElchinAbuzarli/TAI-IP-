@@ -1,0 +1,40 @@
+.nav-container{
+    background-image: url(../../assets/hero.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: var(--poppins);
+    // opacity: 0.5;
+    padding-top: 20px ;
+    background-attachment: fixed;
+
+
+}
+
+.nav-wrapper{
+    border: 1px solid #2F2F2F;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+
+}
+
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 300;
+}
+
+.contact{
+    background-color: #02C96C;
+    padding: 10px;
+    border-radius: 10px;
+}
