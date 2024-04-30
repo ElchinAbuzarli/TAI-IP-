@@ -36,6 +36,8 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
+
 }
 
 .project-card{
@@ -112,4 +114,11 @@
 .card-icon{
     width: 15px;
     height: 15px;
+}
+
+@media(max-width:376px){
+    .project-title{
+        font-size: 25px;
+        width: 100%;
+    }
 }
