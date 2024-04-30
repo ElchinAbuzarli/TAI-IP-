@@ -11,7 +11,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 function Projects() {
   return (
-    <section className="project-container">
+    <section id="projects" className="project-container">
       <div className="project-wrapper">
         <span className="project">Projects</span>
         <h1 className="project-title">Things I've built so far</h1>

@@ -20,7 +20,7 @@ import Bootstrap from "../../assets/bootstrap.png";
 
 function Skill() {
   return (
-    <section className="skill-container">
+    <section id="skills" className="skill-container">
       <div className="skill-wrapper">
         <span className="skill">Skills</span>
         <h1 className="skill-title">

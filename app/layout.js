@@ -1,6 +1,6 @@
 import Footer from '@/components/footer/footer';
 import Navbar from '@/components/navbar/navbar';
-import { poppins } from '@/fonts/font';
+import { jakarta, poppins } from '@/fonts/font';
 import '@/styles/reset.css'
 
 export const metadata = {
