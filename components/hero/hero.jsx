@@ -15,6 +15,7 @@ function Hero() {
         </div>
         <div className='hero-left'>
             <Image
+            className='AI'
             src={AI}
             alt='AI'
             width={530}
