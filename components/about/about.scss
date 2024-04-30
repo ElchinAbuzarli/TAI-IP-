@@ -54,3 +54,35 @@ padding-bottom: 100px;
     width: 800px;
     line-height: 30px;
 }
+
+
+
+@media (max-width:376px){
+
+    .about-wrapper{
+        flex-direction: column;
+        padding-left: 0;
+        gap: 20px;
+    }
+
+    .about-right{
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .about-title{
+        font-size: 25px;
+        width: 350px;
+        margin-bottom: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .about-txt{
+        font-size: 14px;
+        width: 340px;
+        line-height: 25px;
+        text-align: center;
+    }
+}
