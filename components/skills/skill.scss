@@ -33,6 +33,7 @@
 
 .all-skills{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -41,6 +42,7 @@
 
 .first-skills{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -48,6 +50,7 @@
 
 .second-skills{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -60,4 +63,15 @@
     flex-direction: column;
     font-size: 12px;
     gap: 5px;
+}
+
+@media(max-width:376px){
+    .skill-title{
+        color: #0dab5e;
+        font-size: 26px;
+        width: 100%;
+        margin-bottom: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
 }
