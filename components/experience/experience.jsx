@@ -204,9 +204,9 @@ function Experience() {
               </h1>
 
               <ul className="exp-tech">
-                <li><span style={{fontWeight:'800',fontSize:"15px"}}>Front-End Development:</span> Led the development of the front-end side of websites,</li>
-                <li><span style={{fontWeight:'800',fontSize:"15px"}}>Back-End Development:</span> Designed and developed the back-end infrastructure of websites, </li>
-                <li><span style={{fontWeight:'800',fontSize:"15px"}}>Deployment and Hosting:</span> Managed the deployment and hosting process for projects</li>
+                <li> Led the development of the front-end side of websites,</li>
+                <li> Designed and developed the back-end infrastructure of websites, </li>
+                <li> Managed the deployment and hosting process for projects</li>
               </ul>
             </div>
           )}

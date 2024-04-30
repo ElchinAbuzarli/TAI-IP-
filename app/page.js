@@ -13,7 +13,7 @@ export default function Home() {
       <About/>
       <Skill/>
       <Projects/>
-      {/* <Experience/> */}
+      <Experience/>
       {/* <Contact/> */}
     </section>
   );

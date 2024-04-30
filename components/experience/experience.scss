@@ -109,3 +109,78 @@
     line-height: 20px;
     list-style: disc;
 }
+
+@media(max-width:376px){
+
+    .experience-title{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .experience-card{
+        border: 1px solid #393939;
+        padding: 20px;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    .head-div{
+        font-size: 8px;
+    }
+
+    .experience-head{
+        border-bottom: 1px solid #393939;
+        padding-bottom: 10px;
+        display: flex;
+        gap: 5px;
+    
+    }
+
+
+    .exp-toggle{
+        width: 10px;
+        height: 10px;
+        color: #0dab5e;
+    
+    }
+
+    .exp-detail {
+        h1{
+        font-size: 13px ;
+        line-height: 20px;
+
+        }
+
+    }
+    
+    .exp-location{
+
+        span{
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            font-size: 12px;
+            color: gray;
+        }
+    
+        a{
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            font-size: 12px;
+            color: gray;
+    
+        }
+    }
+    
+    .exp-icon{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .exp-tech{
+        font-size: 10px;
+        line-height: 20px;
+        list-style: disc;
+    }
+}
