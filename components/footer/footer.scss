@@ -90,3 +90,15 @@
 
 
 }
+
+@media (max-width:376px) {
+    .footer-wrapper{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 50px;
+        align-items: center;
+    }
+    .copyright{
+        padding-top: 70px;
+    }
+}
