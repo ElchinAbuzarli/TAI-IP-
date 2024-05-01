@@ -10,7 +10,7 @@ function Contact() {
         <div className="contact-content">
           <h1 className='contact-title'>Start a project</h1>
           <span className='contact-txt'>Interested in working together? We should queue up a time to chat I'll buy the tea</span>
-          <Link className='contact-link' href=''>
+          <Link className='contact-link' href="tel:+994-51-840-40-02">
           <FontAwesomeIcon className='contact-icon' icon={faHandFist} />
             Let's do this
           </Link>

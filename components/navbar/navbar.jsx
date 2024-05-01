@@ -160,7 +160,7 @@ function Navbar() {
           </ul>
         </div>
 
-        <div className="contact">Contact me</div>
+        <a href="tel:+994-51-840-40-02" className="contact">Contact me</a>
       </div>
     </section>
   );
