@@ -28,6 +28,13 @@ padding-bottom: 100px;
     border-radius: 50%;
 }
 
+.my-img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
 .about-right{
     display: flex;
     justify-content: center;
