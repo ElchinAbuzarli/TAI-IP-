@@ -48,8 +48,8 @@ function Experience() {
         <div className="experience-card">
           <div className="experience-head">
             <div className="head-div">
-              <h1>Front End Web Developer - Team Lead @ CodeTech</h1>
-              <h1>Apr 2024 - Present</h1>
+              <h1>Front End Web Developer @ Freelacer</h1>
+              <h1>Dec 2024 - Present</h1>
             </div>
             <FontAwesomeIcon
               className="exp-toggle"
@@ -60,31 +60,27 @@ function Experience() {
 
           {showDetail1 && (
             <div className="exp-detail">
-              <div className="exp-location">
-                <span>
-                  <FontAwesomeIcon className="exp-icon" icon={faLocationPin} />
-                  Baku,Azerbaijan
-                </span>
+            <div className="exp-location">
+              <span>
+                <FontAwesomeIcon className="exp-icon" icon={faLocationPin} />
+                Baku,Azerbaijan
+              </span>
 
-                {/* <Link href="https://www.laletech.az/">
-                  <FontAwesomeIcon className="exp-icon" icon={faLink} />
-                  laletech.az
-                </Link> */}
-              </div>
-
-              <h1>
-                Leading Developer Team
-              </h1>
-
-              <ul className="exp-tech">
-                <li>Guide and direct developers, assign tasks, and set deadlines.</li>
-                <li>Lead website design, ensuring alignment with client requirements.</li>
-                <li>Ensure websites are optimized for all devices.</li>
-                <li>Implement interactive features for user engagement.</li>
-                <li>Foster team collaboration and communicate effectively with stakeholders.</li>
-
-              </ul>
+              <Link href="https://www.bookmall.az/">
+                <FontAwesomeIcon className="exp-icon" icon={faLink} />
+                bookmall.az
+              </Link>
             </div>
+
+            <h1>
+              Developing QR Menu website in Bookmall on Next.js/React framework
+            </h1>
+
+            <ul className="exp-tech">
+              <li> Led the development of the front-end side of websites,</li>
+              <li> Managed the deployment and hosting process for projects</li>
+            </ul>
+          </div>
           )}
         </div>
 
@@ -124,48 +120,6 @@ function Experience() {
                 <li>Create visually appealing websites aligned with client requirements and brand identity.</li>
                 <li>Ensure websites are optimized for all devices, providing a seamless user experience.</li>
                 <li>Implement interactive features using JavaScript to enhance user engagement using Next.js framework</li>
-              </ul>
-            </div>
-          )}
-        </div>
-
-        {/* CARD 3 */}
-        <div className="experience-card">
-          <div className="experience-head">
-            <div className="head-div">
-              <h1>Front End Web Developer @ Freelancer</h1>
-              <h1>Feb 2024 - Present</h1>
-            </div>
-            <FontAwesomeIcon
-              className="exp-toggle"
-              icon={showDetail3 ? faMinus : faPlus}
-              onClick={toggleDetail3}
-            />
-          </div>
-
-          {showDetail3 && (
-            <div className="exp-detail">
-              <div className="exp-location">
-                <span>
-                  <FontAwesomeIcon className="exp-icon" icon={faLocationPin} />
-                  Baku,Azerbaijan
-                </span>
-
-                {/* <Link href="https://www.laletech.az/">
-                  <FontAwesomeIcon className="exp-icon" icon={faLink} />
-                  laletech.az
-                </Link> */}
-              </div>
-
-              <h1>
-                Developing Front End in LearnEd on Next.js/React framework and
-              </h1>
-
-              <ul className="exp-tech">
-                <li> Develop a responsive and interactive single-page application using Next.js components.</li>
-                <li>Ensure the application functions seamlessly across various devices and browsers with Next.js's responsive design.</li>
-                <li>Write efficient JavaScript code for the single-page application using Next.js framework</li>
-                <li>Optimize the application's performance leveraging Next.js's server-side rendering and static site generation features.</li>
               </ul>
             </div>
           )}
