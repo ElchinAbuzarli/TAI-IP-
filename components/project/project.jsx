@@ -2,6 +2,8 @@ import Image from "next/image";
 import "./project.scss";
 import Laletech from "../../assets/ltech.png";
 import Bookmall from "../../assets/book.jpg";
+import nar from "../../assets/nar.jpg";
+
 
 import Soon from "../../assets/soon.png";
 import Link from "next/link";
@@ -47,15 +49,14 @@ function Projects() {
           <div className="project-card">
             <Image
               className="project-img"
-              src={Soon}
+              src={nar}
               width={300}
               height={200}
             />
 
             <div className="project-card-txt">
-              <h1 className="project-name">"RentaCar200" Car Rent Company</h1>
-
-              {/* <span className="project-txt">
+              <h1 className="project-name">"Nar Fruit Agro" Landing Page</h1>
+              <span className="project-txt">
                 Explore a landing page highlighting company info and products.
                 Contact via email or live support for assistance. Experience
                 seamless navigation and communication.
@@ -63,9 +64,19 @@ function Projects() {
               <div className="technologies">
                 <span className="tech">Next.js</span>
                 <span className="tech">Sass</span>
-                <span className="tech">Node.js</span>
-                <span className="tech">Mongoose</span>
-              </div> */}
+              </div>
+
+              <div className="card-foot">
+                <Link href="https://narfruit.laletech.az/">
+                  <FontAwesomeIcon className="card-icon" icon={faLink} />
+                  Watch Site
+                </Link>
+
+                <Link href="https://github.com/ElchinAbuzarli/Nar-Fruit-Agro">
+                  <FontAwesomeIcon className="card-icon" icon={faGithub} />
+                  View Code
+                </Link>
+              </div>
             </div>
           </div>
 
