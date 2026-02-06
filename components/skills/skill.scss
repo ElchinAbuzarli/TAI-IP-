@@ -34,9 +34,9 @@
 .all-skills{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 40px;
 }
 
@@ -49,6 +49,30 @@
 }
 
 .second-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.third-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.fourth-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.fifth-skills{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

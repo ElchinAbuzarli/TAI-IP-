@@ -20,19 +20,24 @@ padding-bottom: 100px;
 
 .about-left{
     border: 3px solid #0f9e68;
-    
     border-top: none;
     background-color: #26372f;
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .my-img{
-    object-fit: cover;
+     object-fit: cover;
+     object-position: top;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+     width: 100%;
+     height: 100%;
 }
 
 .about-right{
